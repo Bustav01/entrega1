@@ -1,0 +1,20 @@
+.contenedor-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  ion-list {
+    flex: 1;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  ion-img.imagen {
+    width: 75px;
+    height: auto;
+    object-fit: contain;
+  }
